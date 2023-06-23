@@ -13,6 +13,9 @@ export default component$(() => {
           <span class={styles.spacer}>|</span>
           <span>{serverTime.value.date}</span>
         </a>
+        <a href="https://github.com/barnett617/qwik-app" target="_blank" class={styles.anchor}>
+          <span>Built by Wilson</span>
+        </a>
       </div>
     </footer>
   );
